@@ -8,6 +8,7 @@ import android.hardware.SensorManager;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 import org.apache.log4j.Logger;
 
@@ -71,6 +72,16 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             Toast.makeText(getApplicationContext(),"MetalPower: " + metalpower, Toast.LENGTH_SHORT).show();
             String str = new String("X: " + x + " Y: " + y + " Z: " + z + " Strength: " + metalpower);
             logger.info(str);
+
+            TextView textView1 = (TextView)findViewById(R.id.locationTextView1);
+            TextView textView2 = (TextView)findViewById(R.id.locationTextView2);
+            TextView textView3 = (TextView)findViewById(R.id.locationTextView3);
+            TextView textView4 = (TextView)findViewById(R.id.locationTextView4);
+
+            textView1.setText("X: " + x);
+            textView2.setText("Y: " + y);
+            textView3.setText("Z: " + z);
+            textView4.setText("Strength: " + metalpower);
         }
     }
 
