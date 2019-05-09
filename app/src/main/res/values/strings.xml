@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EMF Detector</string>
+    <string name="open_graph">Graph View</string>
+    <string name="electronic_metal">Electronic Device Detection</string>
+    <string name="buried_lines">Buried Power Lines Detection</string>
+    <string name="graph_view">Graph View</string>
+    <string name="edit">Edit</string>
+    <string name="enter_value">Enter Value for field check</string>
+    <string name="ok">Ok</string>
+    <string name="enter_electronic_check">Electronic Device Check Values</string>
+    <string name="closed_metals">Closed Metals</string>
+    <string name="light_device">Light Device</string>
+    <string name="heavy_device">Heavy Device</string>
+    <string name="light_wiring">Light Wiring</string>
+    <string name="medium_wiring">Medium Wiring</string>
+    <string name="heavy_wirig">Heavy Wiring</string>
+    <string name="please_grant_camera_storage">Please grant all requested permissions to use this feature</string>
+    <string name="please_grant_camera_storage_manually">Please grant all permissions manually from app settings to use this feature</string>
+</resources>
